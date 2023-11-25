@@ -1,0 +1,78 @@
+[
+    {
+        "name": "DFRecommendedFU17",
+        "RecommendedName": "Eid Al-Fitr!",
+        "songlist": [
+            "HalaBel",
+            "Adeyyo",
+            "ALaFolie",
+            "HabibiYaeniALT",
+            "HabibiYaeni",
+            "Sorry",
+            "WhenIGrowUp",
+            "HeyYa",
+            "Leila",
+            "Blame"
+        ]
+    },
+    {
+        "name": "DFRecommendedFU45",
+        "RecommendedName": "Be The Kids!",
+        "songlist": [
+            "BabyShark",
+            "BarbieGirl",
+            "BeepBeep",
+            "Barbie",
+            "Ghostbusters",
+            "AdventurerKids",
+            "ChefKids",
+            "EcoloKids",
+            "PacaDance",
+            "Shaky",
+            "ChasmonauteKids",
+            "PocoLoco"
+        ]
+    },
+    {
+        "name": "DFRecommendedFU19",
+        "RecommendedName": "Placeholder",
+        "songlist": []
+    },
+    {
+        "name": "DFRecommendedFU20",
+        "RecommendedName": "Placeholder",
+        "songlist": []
+    },
+    {
+        "name": "DFRecommendedFU40",
+        "RecommendedName": "Shaky",
+        "songlist": ["Shaky", "Shaky", "Shaky"]
+    },
+    {
+        "name": "DFRecommendedFU39",
+        "RecommendedName": "Nice to meet you!",
+        "songlist": [
+            "BboomBboom",
+            "NiceForWhat",
+            "JDCSenorita",
+            "AmericanBoy",
+            "ShutUp",
+            "HeyYa",
+            "Happy",
+            "GetLow"
+        ]
+    },
+    {
+        "name": "Dance with the Swan",
+        "RecommendedName": "Dance with the Swan!",
+        "songlist": [
+            "CannedHeat",
+            "YouShould",
+            "Stronger",
+            "NeverBe",
+            "Treasure",
+            "SwanLakeRemix",
+            "TaintedLove"
+        ]
+    }
+]

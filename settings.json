@@ -1,0 +1,28 @@
+{
+    "server": {
+        "admins": [
+            {
+                "user": "Please Convert Your Auth Into MD5",
+                "pass": "This Will Avoid Your Account Getting Hijacked"
+            },
+            {
+                "user": "e2dabb97095e9b5e7be7b6afa6dd17bb",
+                "pass": "f545cfa9e05fd0b76cb7e1cc27cd8294",
+                "role": "full"
+            },
+            {
+                "user": "cb0dd35d7106c467e78021d6a00c4aa0",
+                "pass": "a5e116a0191d67b6bec59a486608fb93",
+                "role": "full"
+            },
+            {
+                "user": "1fe5d2f224359b04810d2e4860651347",
+                "pass": "64cda0624d52ba8a103517d5a7678b2a",
+                "role": "full"
+            }
+        ],
+        "port": 80,
+        "forcePort": false,
+        "isPublic": true
+    }
+}

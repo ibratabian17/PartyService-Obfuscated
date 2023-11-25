@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>MSE Example</title>
+</head>
+<body>
+  <video id="myVideo" controls></video>
+
+  <script>
+    const videoElement = document.getElementById('myVideo');
+    const mediaSource = new MediaSource();
+    let sourceBuffer;
+
+    videoElement.src = URL.createObjectURL(mediaSource);
+
+    mediaSource.addEventListener('sourceopen', () => {
+      sourceBuffer = mediaSource.addSourceBuffer('video/webm; codecs="vp8"');
+
+      // Load your video segments
+      fetch('https://cdn.glitch.me/1bbce30c-caf5-407a-90b6-3e8e8910622f/PsychoALT_LOW.webm')
+        .then(response => response.arrayBuffer())
+        .then(data => sourceBuffer.appendBuffer(data));
+
+      // You can add more video segments as needed
+      // sourceBuffer.appendBuffer(data2);
+    });
+
+    // Audio track
+    const audioSourceBuffer = mediaSource.addSourceBuffer('audio/ogg; codecs="opus"');
+
+    // Load your audio segments
+    fetch('https://cdn.glitch.me/1bbce30c-caf5-407a-90b6-3e8e8910622f/PsychoALT.ogg')
+      .then(response => response.arrayBuffer())
+      .then(data => audioSourceBuffer.appendBuffer(data));
+
+    // You can add more audio segments as needed
+    // audioSourceBuffer.appendBuffer(data2);
+  </script>
+</body>
+</html>
